@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D172127-BD30-4F96-B7C9-1F287102C7B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{048530F6-C573-4561-90F1-DC951E258098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{09FD19FC-2779-4908-860C-55EF7600337B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\GridMath.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\src\GridModel.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\src\GridValidation.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\src\JsonStorage.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\src\EffectStub.h"><Filter>Header Files</Filter></ClInclude>
+    <ClInclude Include="..\src\PluginMain.h"><Filter>Header Files</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\GridMath.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="..\src\GridValidation.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="..\src\JsonStorage.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="..\src\EffectStub.cpp"><Filter>Source Files</Filter></ClCompile>
+    <ClCompile Include="..\src\PluginMain.cpp"><Filter>Source Files</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\kg_LayoutGrid_PiPL.r"><Filter>Resource Files</Filter></CustomBuild>
+    <ResourceCompile Include="kg_LayoutGrid_PiPL.rc"><Filter>Resource Files</Filter></ResourceCompile>
+  </ItemGroup>
+</Project>
